@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/stefan.bratescu/Desktop/Tema1APD/homework1.c
+math.h
+-
+pthread.h
+-
+homework1.h
+C:/Users/stefan.bratescu/Desktop/Tema1APD/homework1.h
+
+C:/Users/stefan.bratescu/Desktop/Tema1APD/homework1.h
+stdio.h
+-
+stdlib.h
+-
+
+C:/Users/stefan.bratescu/Desktop/Tema1APD/main1.c
+homework1.h
+C:/Users/stefan.bratescu/Desktop/Tema1APD/homework1.h
+time.h
+-
+unistd.h
+-
+stdio.h
+-
+stdlib.h
+-
+

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Tema1APD"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/stefan.bratescu/Desktop/Tema1APD/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/stefan.bratescu/Desktop/Tema1APD/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/stefan.bratescu/Desktop/Tema1APD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/stefan.bratescu/Desktop/Tema1APD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/stefan.bratescu/Desktop/Tema1APD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tema1APD">
+				<Option output="C:/Users/stefan.bratescu/Desktop/Tema1APD/cmake-build-debug/Tema1APD.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/stefan.bratescu/Desktop/Tema1APD/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/stefan.bratescu/Desktop/Tema1APD/."/>
+					<Add directory="C:/Users/stefan.bratescu/Desktop/Tema1APD/in"/>
+					<Add directory="C:/Users/stefan.bratescu/Desktop/Tema1APD/orig_image"/>
+					<Add directory="C:/Users/stefan.bratescu/Desktop/Tema1APD/out_ref"/>
+					<Add directory="C:/MinGW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/stefan.bratescu/Desktop/Tema1APD/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tema1APD"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/stefan.bratescu/Desktop/Tema1APD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/stefan.bratescu/Desktop/Tema1APD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/stefan.bratescu/Desktop/Tema1APD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tema1APD/fast">
+				<Option output="C:/Users/stefan.bratescu/Desktop/Tema1APD/cmake-build-debug/Tema1APD.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/stefan.bratescu/Desktop/Tema1APD/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/stefan.bratescu/Desktop/Tema1APD/."/>
+					<Add directory="C:/Users/stefan.bratescu/Desktop/Tema1APD/in"/>
+					<Add directory="C:/Users/stefan.bratescu/Desktop/Tema1APD/orig_image"/>
+					<Add directory="C:/Users/stefan.bratescu/Desktop/Tema1APD/out_ref"/>
+					<Add directory="C:/MinGW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/stefan.bratescu/Desktop/Tema1APD/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tema1APD/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/stefan.bratescu/Desktop/Tema1APD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/stefan.bratescu/Desktop/Tema1APD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/stefan.bratescu/Desktop/Tema1APD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/stefan.bratescu/Desktop/Tema1APD/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/stefan.bratescu/Desktop/Tema1APD/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/stefan.bratescu/Desktop/Tema1APD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/stefan.bratescu/Desktop/Tema1APD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/stefan.bratescu/Desktop/Tema1APD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/stefan.bratescu/Desktop/Tema1APD/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/stefan.bratescu/Desktop/Tema1APD/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/stefan.bratescu/Desktop/Tema1APD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/stefan.bratescu/Desktop/Tema1APD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/stefan.bratescu/Desktop/Tema1APD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/stefan.bratescu/Desktop/Tema1APD/Makefile">
+			<Option target="Tema1APD"/>
+		</Unit>
+		<Unit filename="C:/Users/stefan.bratescu/Desktop/Tema1APD/homework1.c">
+			<Option target="Tema1APD"/>
+		</Unit>
+		<Unit filename="C:/Users/stefan.bratescu/Desktop/Tema1APD/homework1.h">
+			<Option target="Tema1APD"/>
+		</Unit>
+		<Unit filename="C:/Users/stefan.bratescu/Desktop/Tema1APD/in/lenna_bw.pgm">
+			<Option target="Tema1APD"/>
+		</Unit>
+		<Unit filename="C:/Users/stefan.bratescu/Desktop/Tema1APD/in/lenna_color.pnm">
+			<Option target="Tema1APD"/>
+		</Unit>
+		<Unit filename="C:/Users/stefan.bratescu/Desktop/Tema1APD/main1.c">
+			<Option target="Tema1APD"/>
+		</Unit>
+		<Unit filename="C:/Users/stefan.bratescu/Desktop/Tema1APD/orig_image/1000.jpg">
+			<Option target="Tema1APD"/>
+		</Unit>
+		<Unit filename="C:/Users/stefan.bratescu/Desktop/Tema1APD/orig_image/lenna.jpg">
+			<Option target="Tema1APD"/>
+		</Unit>
+		<Unit filename="C:/Users/stefan.bratescu/Desktop/Tema1APD/orig_image/lenna.png">
+			<Option target="Tema1APD"/>
+		</Unit>
+		<Unit filename="C:/Users/stefan.bratescu/Desktop/Tema1APD/out_ref/1000.pnm">
+			<Option target="Tema1APD"/>
+		</Unit>
+		<Unit filename="C:/Users/stefan.bratescu/Desktop/Tema1APD/out_ref/2lenna_bw.pgm">
+			<Option target="Tema1APD"/>
+		</Unit>
+		<Unit filename="C:/Users/stefan.bratescu/Desktop/Tema1APD/out_ref/2lenna_color.pnm">
+			<Option target="Tema1APD"/>
+		</Unit>
+		<Unit filename="C:/Users/stefan.bratescu/Desktop/Tema1APD/out_ref/3lenna_bw.pgm">
+			<Option target="Tema1APD"/>
+		</Unit>
+		<Unit filename="C:/Users/stefan.bratescu/Desktop/Tema1APD/out_ref/3lenna_color.pnm">
+			<Option target="Tema1APD"/>
+		</Unit>
+		<Unit filename="C:/Users/stefan.bratescu/Desktop/Tema1APD/out_ref/8lenna_bw.pgm">
+			<Option target="Tema1APD"/>
+		</Unit>
+		<Unit filename="C:/Users/stefan.bratescu/Desktop/Tema1APD/out_ref/8lenna_color.pnm">
+			<Option target="Tema1APD"/>
+		</Unit>
+		<Unit filename="C:/Users/stefan.bratescu/Desktop/Tema1APD/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
